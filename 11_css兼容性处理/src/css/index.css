@@ -1,0 +1,14 @@
+#container{
+  height: 200px;
+  display: flex;
+  backface-visibility: hidden;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+#container>div{
+  width: 100px;
+  background-color: red;
+  border-radius: 5px;
+  user-select: none;
+}
